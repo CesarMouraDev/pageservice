@@ -4,7 +4,7 @@
     justify-content: space-between;
     padding: 0px;
     margin: 0px;
-    background-color: blue;}
+}
 .nav-bar{
     display: flex;
     justify-content: center;
@@ -31,6 +31,7 @@
     margin: 0%;
     width: 120px;
     height: 40px;
+    
 }
 
 .ul-menu {
@@ -52,7 +53,10 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    background-image: url(images/header-container-bg-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .text-button-track{
     display: flex;
@@ -94,18 +98,18 @@ body{
 .form-service{
     display: flex;
     flex-direction: column;
-    background-color: orange;
-    margin: 50px;
-    padding: 50px; 
+    columns: 10px;
     justify-content: space-between;
-    column-width: 10px;
-    outline: none; 
+
     
 }
 .div-form-service{
-    background-color: orange;
-    padding: auto;
-    display: block;
+    background-color:rgb(236, 107, 32);
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    outline: none;
+     
 }
 .selec-form-service{
     position: relative;
@@ -120,4 +124,51 @@ select {
     -webkit-appearance: none; /* Remove a aparência padrão no WebKit */
     -moz-appearance: none; /* Remove a aparência padrão no Firefox */
     
+}
+
+/*.name-form-service {
+    margin: 10px;
+    padding: 10px
+}
+estava tentando separa a palavra do formulario    
+*/
+
+form {
+    max-width: auto;
+    margin: 0 auto;
+    padding: auto;
+    border: none;
+    border-radius: 5px;
+   }
+    input[type="name"],
+    input[type="email"]
+   
+    
+    {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px; /* Espaçamento entre os campos */
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+.botton-form-service{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+
+}
+
+.selec-form-service{    
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+
 }
