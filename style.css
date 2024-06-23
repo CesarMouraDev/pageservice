@@ -41,3 +41,42 @@
     align-content: center;
     
 }
+
+main{
+
+    background-color: aquamarine;
+}
+footer {
+    background-color: blueviolet;
+}
+
+.sec-sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.text-button-track{
+    display: flex;
+    align-items: center;
+    max: width 400px; 
+    min-width: none;
+    margin: 0%;
+    padding: 20px;
+    border: 0px;
+}
+
+.input-pesquisa{
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid;
+    outline: none;
+}
+
+.input-botao{
+    padding: 10px;
+    border: 0px;
+    cursor: pointer;
+}
