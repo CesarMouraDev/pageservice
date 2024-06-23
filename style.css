@@ -82,5 +82,25 @@ body{
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
-
+}
+.servico{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-service{
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    margin: 50px;
+    padding: 50px;
+   
+    justify-content: space-between;
+    column-width: 10px;
+}
+.div-form-service{
+    background-color: orange;
+    padding: auto;
+    display: block;
 }
