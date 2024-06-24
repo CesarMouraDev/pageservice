@@ -1,0 +1,6 @@
+# Configurações básicas do site
+title: Meu Site Jekyll
+description: Um site incrível criado com Jekyll
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
