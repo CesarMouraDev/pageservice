@@ -81,9 +81,13 @@ footer {
     outline: none;
 }
 
-.input-botao{
+.input-botton
+{
+    flex: 1;
     padding: 10px;
-    border: 0px;
+    font-size: 16px;
+    border: 1px solid;
+    outline: none;
     cursor: pointer;
 }
 
