@@ -53,10 +53,15 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  
+        
+}
+.imagem-bg-sec-sobre{
     background-image: url(images/header-container-bg-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: brightness(0.40);
 }
 .text-button-track{
     display: flex;
