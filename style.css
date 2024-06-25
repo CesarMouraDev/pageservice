@@ -228,4 +228,27 @@ form {
 
 button{
     border: none;
+
+}
+/*CSS PARA A SECAO SERVICO DOIS*/
+
+.sec-servico-status{
+
+}
+
+.sec-servico-status-expert-number{
+
+}
+.sec-servico-status-expert-txt{
+
+}
+.sec-servico-status-sucesso-number{}
+
+.sec-servico-status-sucesso-txt{}
+
+.sec-servico-status-project-number{
+
+}
+.sec-servico-status-project-txt{
+    
 }
