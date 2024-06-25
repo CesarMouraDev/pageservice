@@ -56,6 +56,14 @@ footer {
   
         
 }
+
+.sec-sobre-sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
 .imagem-bg-sec-sobre{
     background-image: url(images/header-container-bg-img.jpg);
     background-position: center;
@@ -98,7 +106,7 @@ body{
   font-weight: normal;
   font-style: normal;
 }
-.servico{
+.sec-servico{
     background-color: brown;
     display: flex;
     justify-content: center;
@@ -181,3 +189,4 @@ form {
     font-size: 16px;
 
 }
+
