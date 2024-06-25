@@ -1,7 +1,16 @@
-  
+/*Criando area responsiva*/
+* {
+    margin: 0;
+    padding: 0;
+}  
+
+
+
+
 .header-container{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     padding: 0px;
     margin: 0px;
 }
@@ -10,16 +19,27 @@
     justify-content: center;
     align-items:center;   
     text-align:justify;
+    margin: 10px;
+    padding: 10px;
 }
 .logo {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 50;
-    height: 50px;}
+    height: 50px;
+    gap: 20px;
+}
+
 .logo-name {
     display: flex;
-    align-content: center;
+    align-content: end;
     align-self: center;
+}
+.logo-img
+{
+    width: 50px;
+    height: 50px;    
 }
 
 .button-menu{
@@ -37,6 +57,8 @@
 .ul-menu {
     justify-content: center;
     align-content: center;
+    padding: 10px;
+    margin: 10px;
     
 }
 
@@ -58,7 +80,7 @@ footer {
 }
 
 .sec-sobre-sub{
-    display: flex;
+     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
