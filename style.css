@@ -4,13 +4,11 @@
     padding: 0;
 }  
 
-
-
-
 .header-container{
     display:flex;
     justify-content: space-around;
     align-items: center;
+    aspect-ratio: 10/1;
     padding: 0px;
     margin: 0px;
 }
