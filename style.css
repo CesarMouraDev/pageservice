@@ -233,6 +233,7 @@ button{
 /*CSS PARA A SECAO SERVICO DOIS*/
 
 .sec-servico-status{
+    display: contents;
 
 }
 
