@@ -233,23 +233,21 @@ button{
 /*CSS PARA A SECAO SERVICO DOIS*/
 
 .sec-servico-status{
-    display: contents;
+    display: flex;
+    flex-direction: column;
 
 }
 
-.sec-servico-status-expert-number{
+.sec-servico-status-expert{
 
 }
-.sec-servico-status-expert-txt{
+
+.sec-servico-status-sucesso{}
+
+
+
+.sec-servico-status-project{
 
 }
-.sec-servico-status-sucesso-number{}
 
-.sec-servico-status-sucesso-txt{}
 
-.sec-servico-status-project-number{
-
-}
-.sec-servico-status-project-txt{
-    
-}
