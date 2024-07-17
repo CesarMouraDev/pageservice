@@ -1,8 +1,51 @@
 /*Criando area responsiva*/
+/*Geral*/
 * {
     margin: 0;
     padding: 0;
     }  
+
+title {
+        font-style: italic;
+        text-align: center;
+        color: blue;
+}/* Parece que o navegador nao se importa com o estilo do titulo*/
+main{
+
+        background-color: aquamarine;
+    }
+
+body{
+        font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: normal;
+      font-style: normal;
+     }
+
+footer {
+        background-color: blueviolet;
+    }
+
+li {
+        list-style: none;
+    }
+
+button{
+        border: none;
+    
+    }
+
+select {
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        font-size: 16px;
+        appearance: none; /* Remove a aparência padrão */
+        -webkit-appearance: none; /* Remove a aparência padrão no WebKit */
+        -moz-appearance: none; /* Remove a aparência padrão no Firefox */
+        
+    }
+/* Metadados*/
 
 .header-container{
     display:flex;
@@ -13,6 +56,9 @@
     margin: 0px;
     border: 0px;
 }
+
+/* Parte da Navecação do Site*/
+
 .nav-bar{
     display: flex;
     justify-content: center;
@@ -56,6 +102,8 @@
     
 }
 
+
+
 .ul-menu {
     justify-content: center;
     align-content: center;
@@ -75,14 +123,7 @@
     font-size: 16px;
         
 }
-
-main{
-
-    background-color: aquamarine;
-}
-footer {
-    background-color: blueviolet;
-}
+/*Secao Sobre*/
 
 .sec-sobre{
     display: flex;
@@ -136,12 +177,6 @@ footer {
 }
 
 
-body{
-    font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
-}
 .sec-servico{
     background-color: brown;
     display: flex;
@@ -168,16 +203,7 @@ body{
     position: relative;
 }
 
-select {
-    width: 100%;
-    padding: 10px;
-    border-radius: 4px;
-    font-size: 16px;
-    appearance: none; /* Remove a aparência padrão */
-    -webkit-appearance: none; /* Remove a aparência padrão no WebKit */
-    -moz-appearance: none; /* Remove a aparência padrão no Firefox */
-    
-}
+
 
 /*.name-form-service {
     margin: 10px;
@@ -226,10 +252,7 @@ form {
 
 }
 
-button{
-    border: none;
 
-}
 /*CSS PARA A SECAO SERVICO DOIS*/
 
 .sec-servico-status{
